@@ -1,21 +1,21 @@
 // sample seed data for Category
-const { Category } = require('../models/Category');
+const { Category } = require('../models');
 
 const sample_categories = [
     {
-        category_name: 'router',
+        category_name: 'router'
     },
     {
-        category_name: 'switch',
+        category_name: 'switch'
     },
     {
-        category_name: 'firewall',
+        category_name: 'firewall'
     },
     {
-        category_name: 'loadbalancer',
+        category_name: 'loadbalancer'
     },
     {
-        category_name: 'optic',
+        category_name: 'optic'
     }
 ];
 

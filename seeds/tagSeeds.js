@@ -1,15 +1,15 @@
-// sample seed data for tags
-const { Tag } = require('../models/Tag');
+// sample seed data for Tag
+const { Tag } = require('../models');
 
 const sample_tags = [
     {
-        tag_name: 'core',
+        tag_name: 'core'
     },
     {
-        tag_name: 'edge',
+        tag_name: 'edge'
     },
     {
-        tag_name: 'node',
+        tag_name: 'node'
     }
 ];
 
@@ -17,4 +17,4 @@ const sample_tags = [
 const tagSeeds = () => Tag.bulkCreate(sample_tags);
 
 // export
-module.exports = seedTags;
+module.exports = tagSeeds;
