@@ -1,0 +1,22 @@
+{
+  "name": "ms-ecommerce-backend",
+  "version": "1.0.0",
+  "description": "Simple e-commerce backend app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeds/index.js",
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manzur-shaheed/ms-ecommerce-backend.git"
+  },
+  "author": "Manzur Shaheed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manzur-shaheed/ms-ecommerce-backend/issues"
+  },
+  "homepage": "https://github.com/manzur-shaheed/ms-ecommerce-backend#readme"
+}
