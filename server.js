@@ -1,5 +1,4 @@
 // express server
-// WHEN I add my database name, MySQL username, and MySQL password to an environment variable file
 const express = require('express');
 
 // connection to DB using sequelize
