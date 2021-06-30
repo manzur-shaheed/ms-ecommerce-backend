@@ -22,8 +22,7 @@ Product.belongsToMany(Tag, {
         model: ProductTag,
         unique: false
     },
-    // alias for this relation
-    as: 'product_tags'
+    foreignKey: "product_id",
 });
 
 // Tag belongs to many Product through ProductTag
@@ -32,13 +31,12 @@ Tag.belongsToMany(Product, {
         model: ProductTag,
         unique: false
     },
-    // alias for this relation
-    as: 'tag_products'
+    foreignKey: "tag_id",
 });
 
 module.exports = {
   Product,
   Category,
   Tag,
-  ProductTag,
+  ProductTag
 };
