@@ -1,8 +1,8 @@
 // imports
 const router = require('express').Router();
-const categoryRoutes = require('./categoryRoute');
-const productRoutes = require('./productRoute');
-const tagRoutes = require('./tagRoute');
+const categoryRoutes = require('./category-routes');
+const productRoutes = require('./product-routes');
+const tagRoutes = require('./tag-routes');
 
 // uri to route mapping
 router.use('/categories', categoryRoutes);
