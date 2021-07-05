@@ -25,7 +25,7 @@ git@github.com:manzur-shaheed/ms-ecommerce-backend.git
 ```
 - If you don't have ```node.js``` installed already then download it from [here](https://nodejs.org/en/download/), and follow the instructions to install it.
 - Once installed, use ```npm``` to install ```express```, ```mysql2```, ```sequelize``` and ```dotenv``` packages by issuing ```npm i <package>``` command at the terminal prompt (where ```<package>``` is one of ```express```, ```mysql2```, ```sequelize```, ```dotenv```).
-- After that you need to create a database using the file ```assets/schema.sql```. 
+- After that you need to create a database using the file ```db/schema.sql```. 
 
 Following image shows the design of the databse and relations between the tables -
 
